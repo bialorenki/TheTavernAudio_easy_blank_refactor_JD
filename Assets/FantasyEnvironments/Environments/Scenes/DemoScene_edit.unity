@@ -135,7 +135,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &24251768
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -176,7 +176,7 @@ Transform:
   m_GameObject: {fileID: 24251767}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 403.83, y: 8.61, z: 314.12}
+  m_LocalPosition: {x: 399.648, y: 8.61, z: 324.88}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -303,6 +303,7 @@ GameObject:
   - component: {fileID: 129069800}
   - component: {fileID: 129069799}
   - component: {fileID: 129069798}
+  - component: {fileID: 129069801}
   m_Layer: 0
   m_Name: RoomAmbTrigger 2
   m_TagString: Untagged
@@ -400,6 +401,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 129069795}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &129069801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 129069795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dbf81bbd6e742a47ab052aa598c527b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &131062900
 GameObject:
   m_ObjectHideFlags: 0
@@ -750,6 +763,15 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1330636291972076, guid: cb181bc6c302bca40929333077286a04, type: 3}
       insertIndex: -1
       addedObject: {fileID: 159108037}
+    - targetCorrespondingSourceObject: {fileID: 1742205292912966, guid: cb181bc6c302bca40929333077286a04, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1717047160}
+    - targetCorrespondingSourceObject: {fileID: 1870896476324792, guid: cb181bc6c302bca40929333077286a04, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1761328459}
+    - targetCorrespondingSourceObject: {fileID: 1878543480056916, guid: cb181bc6c302bca40929333077286a04, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1252265992}
   m_SourcePrefab: {fileID: 100100000, guid: cb181bc6c302bca40929333077286a04, type: 3}
 --- !u!1 &159108029 stripped
 GameObject:
@@ -829,7 +851,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &223765522
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2310,6 +2332,7 @@ GameObject:
   - component: {fileID: 613997990}
   - component: {fileID: 613997989}
   - component: {fileID: 613997994}
+  - component: {fileID: 613997995}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -2516,6 +2539,26 @@ MonoBehaviour:
     Path: event:/sfx_player_land
   isGrounded: 1
   isJumping: 0
+--- !u!114 &613997995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 613997984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7d95e26b5cbbe94f93658dcf4aa33cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  snapshotActivated: 0
+  outsideSnapshot:
+    Guid:
+      Data1: -1352711518
+      Data2: 1114045100
+      Data3: -60144978
+      Data4: 1313380467
+    Path: snapshot:/Outside
 --- !u!1 &688602384
 GameObject:
   m_ObjectHideFlags: 0
@@ -3041,6 +3084,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 882882083}
+  - component: {fileID: 882882084}
   m_Layer: 0
   m_Name: RoomAmbientTriggers
   m_TagString: Untagged
@@ -3065,6 +3109,19 @@ Transform:
   - {fileID: 129069796}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &882882084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 882882082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfc4a4da891945f49aaa5b911f9f8711, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ambientActivated: 0
 --- !u!1 &896572285
 GameObject:
   m_ObjectHideFlags: 0
@@ -3392,6 +3449,7 @@ GameObject:
   - component: {fileID: 1039452382}
   - component: {fileID: 1039452381}
   - component: {fileID: 1039452380}
+  - component: {fileID: 1039452384}
   m_Layer: 0
   m_Name: RoomAmbTrigger 1
   m_TagString: Untagged
@@ -3489,6 +3547,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 882882083}
   m_LocalEulerAnglesHint: {x: 90, y: 180, z: 0}
+--- !u!114 &1039452384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1039452379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dbf81bbd6e742a47ab052aa598c527b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1110397076
 GameObject:
   m_ObjectHideFlags: 0
@@ -3848,6 +3918,40 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1602359162}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 90}
+--- !u!1 &1252265987 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1878543480056916, guid: cb181bc6c302bca40929333077286a04, type: 3}
+  m_PrefabInstance: {fileID: 159108028}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1252265992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252265987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0a3acf8d75e1714f8433f67364d416a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationDuration: 1
+  doorsOpened: 1
+  isRotating: 0
+  doorsEvent:
+    Guid:
+      Data1: 1025693843
+      Data2: 1080056511
+      Data3: -379085646
+      Data4: 1531391757
+    Path: event:/sfx_interactable_doors
+  insideRoomSnap:
+    Guid:
+      Data1: -371600914
+      Data2: 1101483788
+      Data3: -1734025028
+      Data4: -1736098041
+    Path: snapshot:/InsideRoom
 --- !u!1 &1304384695
 GameObject:
   m_ObjectHideFlags: 0
@@ -5015,7 +5119,7 @@ GameObject:
   - component: {fileID: 1610884565}
   - component: {fileID: 1610884564}
   m_Layer: 7
-  m_Name: Stone_2
+  m_Name: Stone_2_inside
   m_TagString: Inside_stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5692,6 +5796,74 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1710004318}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1717047155 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1742205292912966, guid: cb181bc6c302bca40929333077286a04, type: 3}
+  m_PrefabInstance: {fileID: 159108028}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1717047160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1717047155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0a3acf8d75e1714f8433f67364d416a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationDuration: 1
+  doorsOpened: 1
+  isRotating: 0
+  doorsEvent:
+    Guid:
+      Data1: 1025693843
+      Data2: 1080056511
+      Data3: -379085646
+      Data4: 1531391757
+    Path: event:/sfx_interactable_doors
+  insideRoomSnap:
+    Guid:
+      Data1: -371600914
+      Data2: 1101483788
+      Data3: -1734025028
+      Data4: -1736098041
+    Path: snapshot:/InsideRoom
+--- !u!1 &1761328454 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1870896476324792, guid: cb181bc6c302bca40929333077286a04, type: 3}
+  m_PrefabInstance: {fileID: 159108028}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1761328459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1761328454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0a3acf8d75e1714f8433f67364d416a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationDuration: 1
+  doorsOpened: 1
+  isRotating: 0
+  doorsEvent:
+    Guid:
+      Data1: 1025693843
+      Data2: 1080056511
+      Data3: -379085646
+      Data4: 1531391757
+    Path: event:/sfx_interactable_doors
+  insideRoomSnap:
+    Guid:
+      Data1: -371600914
+      Data2: 1101483788
+      Data3: -1734025028
+      Data4: -1736098041
+    Path: snapshot:/InsideRoom
 --- !u!1 &1767169421
 GameObject:
   m_ObjectHideFlags: 0
@@ -6661,7 +6833,7 @@ GameObject:
   - component: {fileID: 2015243836}
   - component: {fileID: 2015243835}
   m_Layer: 7
-  m_Name: Stone_1
+  m_Name: Stone_1_outisde
   m_TagString: Outside
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

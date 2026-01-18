@@ -43,10 +43,10 @@ MonoBehaviour:
   Path: Assets/FMOD Studio/Tavern1N/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639043506673313285
+  lastModified: 639043605275306805
   FileSizes:
   - Name: Desktop
-    Value: 1526
+    Value: 1726
   Exists: 1
 --- !u!114 &-8339965582571150460
 MonoBehaviour:
@@ -154,6 +154,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 207609
+--- !u!114 &-1965016954130095333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Outside
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Outside
+  Guid:
+    Data1: -1352711518
+    Data2: 1114045100
+    Data3: -60144978
+    Data4: 1313380467
+  Banks:
+  - {fileID: 1527116647209981147}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &-1115403257575702749
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -204,6 +231,8 @@ MonoBehaviour:
   - {fileID: 3404314855812977815}
   - {fileID: 4291824067160071314}
   - {fileID: -3983720025260660770}
+  - {fileID: -1965016954130095333}
+  - {fileID: 1447705312687869285}
   EditorParameters:
   - {fileID: 4727625449743802033}
   MasterBanks:
@@ -211,7 +240,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -8716350417489385088}
   cacheVersion: 131856
-  cacheTime: 639043506673313285
+  cacheTime: 639043605275306805
   SerializableEventsDict:
   - key: event:/mfx_tavern_music
     index: 0
@@ -229,6 +258,10 @@ MonoBehaviour:
     index: 6
   - key: event:/sfx_ambient_tavern
     index: 7
+  - key: snapshot:/Outside
+    index: 8
+  - key: snapshot:/InsideRoom
+    index: 9
 --- !u!114 &710173492319237623
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -257,6 +290,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 490
+--- !u!114 &1447705312687869285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/InsideRoom
+  m_EditorClassIdentifier: 
+  Path: snapshot:/InsideRoom
+  Guid:
+    Data1: -371600914
+    Data2: 1101483788
+    Data3: -1734025028
+    Data4: -1736098041
+  Banks:
+  - {fileID: 1527116647209981147}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &1527116647209981147
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -272,10 +332,10 @@ MonoBehaviour:
   Path: Assets/FMOD Studio/Tavern1N/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639043506673313285
+  lastModified: 639043605275281666
   FileSizes:
   - Name: Desktop
-    Value: 5952320
+    Value: 5954432
   Exists: 1
 --- !u!114 &2559797433797139396
 MonoBehaviour:
