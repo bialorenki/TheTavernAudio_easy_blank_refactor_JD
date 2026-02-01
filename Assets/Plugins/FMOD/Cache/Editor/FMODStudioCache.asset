@@ -43,10 +43,10 @@ MonoBehaviour:
   Path: Assets/FMOD Studio/Tavern1N/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639043605275306805
+  lastModified: 639055669195174783
   FileSizes:
   - Name: Desktop
-    Value: 1726
+    Value: 2252
   Exists: 1
 --- !u!114 &-8339965582571150460
 MonoBehaviour:
@@ -74,6 +74,33 @@ MonoBehaviour:
   - Stone
   - Wood
   Exists: 1
+--- !u!114 &-4652619444235620529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Health
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Health
+  Guid:
+    Data1: 1757936750
+    Data2: 1217684733
+    Data3: 393758617
+    Data4: 1572811564
+  Banks:
+  - {fileID: 1527116647209981147}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &-4482639229995238353
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -127,6 +154,33 @@ MonoBehaviour:
   MinDistance: 1.8000001
   MaxDistance: 20
   Length: 207609
+--- !u!114 &-3862086742059462778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_health
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_health
+  Guid:
+    Data1: 636555429
+    Data2: 1303829452
+    Data3: -1228833857
+    Data4: 636100822
+  Banks:
+  - {fileID: 1527116647209981147}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 6730
 --- !u!114 &-2973839825860450686
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -148,7 +202,7 @@ MonoBehaviour:
   Banks:
   - {fileID: 1527116647209981147}
   IsStream: 1
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 0
   Parameters: []
   MinDistance: 1
@@ -233,6 +287,9 @@ MonoBehaviour:
   - {fileID: -3983720025260660770}
   - {fileID: -1965016954130095333}
   - {fileID: 1447705312687869285}
+  - {fileID: -4652619444235620529}
+  - {fileID: -3862086742059462778}
+  - {fileID: 402864489943278030}
   EditorParameters:
   - {fileID: 4727625449743802033}
   MasterBanks:
@@ -240,7 +297,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -8716350417489385088}
   cacheVersion: 131856
-  cacheTime: 639043605275306805
+  cacheTime: 639055669195174783
   SerializableEventsDict:
   - key: event:/mfx_tavern_music
     index: 0
@@ -262,6 +319,39 @@ MonoBehaviour:
     index: 8
   - key: snapshot:/InsideRoom
     index: 9
+  - key: snapshot:/Health
+    index: 10
+  - key: event:/sfx_health
+    index: 11
+  - key: event:/sfx_hurt
+    index: 12
+--- !u!114 &402864489943278030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_hurt
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_hurt
+  Guid:
+    Data1: 1595825999
+    Data2: 1161291492
+    Data3: -1947636802
+    Data4: -1485291450
+  Banks:
+  - {fileID: 1527116647209981147}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8097
 --- !u!114 &710173492319237623
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -332,10 +422,10 @@ MonoBehaviour:
   Path: Assets/FMOD Studio/Tavern1N/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639043605275281666
+  lastModified: 639055669195164778
   FileSizes:
   - Name: Desktop
-    Value: 5954432
+    Value: 7064672
   Exists: 1
 --- !u!114 &2559797433797139396
 MonoBehaviour:

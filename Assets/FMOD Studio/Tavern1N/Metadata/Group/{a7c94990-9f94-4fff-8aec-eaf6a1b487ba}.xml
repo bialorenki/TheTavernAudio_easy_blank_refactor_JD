@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{a7c94990-9f94-4fff-8aec-eaf6a1b487ba}">
+		<property name="name">
+			<value>EverythingButHealth</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{8d127244-c631-4c5e-8cb0-2f63f3ec31fe}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{110a541a-1291-453c-8a41-862cc7f80e98}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{49e423ca-9a5c-4b5e-a4f4-f824037ca012}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{8d127244-c631-4c5e-8cb0-2f63f3ec31fe}">
+		<relationship name="effects">
+			<destination>{97b6a375-dd30-4f6c-a947-96fbfa4d3a56}</destination>
+			<destination>{dc9a799a-104f-4d2f-9c92-dc060dfd8e0c}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{110a541a-1291-453c-8a41-862cc7f80e98}" />
+	<object class="MixerBusFader" id="{97b6a375-dd30-4f6c-a947-96fbfa4d3a56}" />
+	<object class="MultibandEqEffect" id="{dc9a799a-104f-4d2f-9c92-dc060dfd8e0c}">
+		<property name="frequencyA">
+			<value>22000</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{e0da6ec8-0b6c-4b7e-915f-a5bef64e0906}</destination>
+		</relationship>
+	</object>
+	<object class="ADSRModulator" id="{e0da6ec8-0b6c-4b7e-915f-a5bef64e0906}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>frequencyA</value>
+		</property>
+		<property name="attackTime">
+			<value>1400</value>
+		</property>
+	</object>
+</objects>

@@ -4,6 +4,9 @@
 		<property name="name">
 			<value>Music</value>
 		</property>
+		<relationship name="masters">
+			<destination>{6f352fbb-bb58-4f6c-887a-6e5d25676fd3}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{194cf04d-aa9b-4f4f-a6d0-a163467cdf28}</destination>
 		</relationship>
@@ -11,14 +14,20 @@
 			<destination>{14ef1a2c-8f45-47bf-a936-663e7f5126d4}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{49e423ca-9a5c-4b5e-a4f4-f824037ca012}</destination>
+			<destination>{a7c94990-9f94-4fff-8aec-eaf6a1b487ba}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{194cf04d-aa9b-4f4f-a6d0-a163467cdf28}">
 		<relationship name="effects">
 			<destination>{1c60fa39-8b22-498e-a40e-51c7ef0d387e}</destination>
+			<destination>{e354c245-3a90-451c-96d7-33ab6d3c4bfa}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{14ef1a2c-8f45-47bf-a936-663e7f5126d4}" />
 	<object class="MixerBusFader" id="{1c60fa39-8b22-498e-a40e-51c7ef0d387e}" />
+	<object class="MultibandEqEffect" id="{e354c245-3a90-451c-96d7-33ab6d3c4bfa}">
+		<property name="filterTypeA">
+			<value>2</value>
+		</property>
+	</object>
 </objects>

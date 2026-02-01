@@ -7,6 +7,9 @@
 		<property name="name">
 			<value>Outside</value>
 		</property>
+		<relationship name="masters">
+			<destination>{cbe2711f-70fb-4737-bbda-bc3d62b35ede}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{eadfc078-f834-4707-ac86-2a20e40f7438}</destination>
 		</relationship>
